@@ -44,7 +44,6 @@ final class InvertedMatteLayer: CALayer, CompositionLayerDelegate {
   let wrapperLayer = CALayer()
 
   func frameUpdated(frame _: CGFloat) {
-    setNeedsDisplay()
     displayIfNeeded()
   }
 
